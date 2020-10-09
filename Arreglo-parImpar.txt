@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Arreglos</title>
+    <script>
+         var numero = [12,55,88,255,44,1055,222,77,8,99];   
+        
+        for(let num in numero){          
+
+            if(num % 2 == 0){
+                alert(numero[num] + " es par");
+                }
+            else
+                alert(numero[num] + " es impar");
+                }      
+    </script>
+</head>
+<body>
+
+</body>
+</html>
